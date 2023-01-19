@@ -70,6 +70,9 @@ public class HoneywellScannerPlugin extends CordovaPlugin implements BarcodeRead
                     // If this is not set to true, an EAN-13 starting with 00 will have the first zero removed.
                     properties.put(BarcodeReader.PROPERTY_UPC_A_TRANSLATE_EAN13, true);
 
+                    // Stops the scanner from attempting to open a browser if a URL is scanned
+                    properties.put(BarcodeReader.PROPERTY_DATA_PROCESSOR_LAUNCH_BROWSER, false);
+
                     // Apply the settings
                     barcodeReader.setProperties(properties);
                     barcodeReader.addBarcodeListener(HoneywellScannerPlugin.this);
