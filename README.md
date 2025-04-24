@@ -1,13 +1,13 @@
 # Original plugin 
 https://www.npmjs.com/package/cordova-honeywell-scanner-simplified
 
-I have just copied all the code from above source and added extra properties as per my need. Original plugin was not ale to scan EAN-13 and some more. I enabled almost everyting.
+I have just copied all the code from above source and added extra properties as per my need. Original plugin was not able to scan EAN-13 and some more. I enabled almost everything.
 
 **Tested on CT60 9.0**
 
 **Works with Capacitor and React project as well**
 
-**So all credit goes to the original one.**
+**All credit goes to the original one.**
 
 Install
 -------
